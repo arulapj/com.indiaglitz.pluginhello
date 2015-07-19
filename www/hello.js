@@ -1,7 +1,7 @@
 /*global cordova, module*/
 
 module.exports = {
-    greet: function (name, successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "Hello", "greet", [name]);
+    openGallary: function (arrImages, successCallback, errorCallback) {
+        cordova.exec(successCallback, errorCallback, "Hello", "openGallary", [arrImages]);
     }
 };
